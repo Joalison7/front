@@ -1,0 +1,130 @@
+.detalhes-container {
+  display: flex;
+  min-height: 100vh; 
+  flex-direction: row;
+  width: 100%;
+}
+
+.detalhes-content {
+  margin-left: 270px;
+  padding: 20px;
+  flex: 1;
+  overflow-y: auto;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.detalhes-content h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.campanha-detalhes {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.campanha-detalhes h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.campanha-detalhes p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.campanha-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.donation-section {
+  margin-top: 20px;
+}
+
+.donation-section h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.donation-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+}
+
+.donation-section label {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.donation-section input {
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.donation-section button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.donation-section button:hover {
+  background-color: #0056b3;
+}
+
+.action-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.edit-button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.edit-button:hover {
+  background-color: #218838;
+}
+
+.delete-button {
+  padding: 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+
+@media (max-width: 768px) {
+  .detalhes-content {
+    margin-left: 0;
+    padding: 10px;
+  }
+}

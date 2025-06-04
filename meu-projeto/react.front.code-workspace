@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../react.front/react.front"
+		},
+		{
+			"path": "../public"
+		},
+		{
+			"path": "../src"
+		},
+		{
+			"path": "../.vscode"
+		},
+		{
+			"path": "../node_modules"
+		}
+	],
+	"settings": {}
+}

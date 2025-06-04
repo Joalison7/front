@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  overflow: auto;
+  height: 100%;
+  background: linear-gradient(to right, #4CAF50, #2196F3);
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw; 
+  background: linear-gradient(to right, #4CAF50, #2196F3);
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+h1 {
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  color: white;
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+.btn {
+  display: block;
+  max-width: 300px;
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 15px auto;
+}
+
+.btn-blue {
+  background-color: #2196F3;
+}
+
+.btn-blue:hover {
+  background-color: #1976D2;
+}
+
+.btn-yellow {
+  background-color: #FFC107;
+}
+
+.btn-yellow:hover {
+  background-color: #FFA000;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5em;
+  }
+  p {
+    font-size: 1em;
+  }
+  .btn {
+    width: 90%;
+    font-size: 1em;
+    padding: 12px 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2em;
+  }
+  p {
+    font-size: 0.9em;
+  }
+  .btn {
+    width: 95%;
+    font-size: 0.9em;
+    padding: 10px 20px;
+  }
+}

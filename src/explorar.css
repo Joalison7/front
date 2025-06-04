@@ -1,0 +1,53 @@
+.explorar-container {
+  display: flex;
+}
+
+.explorar-content {
+  margin-left: 270px;
+  padding: 20px;
+  flex: 1;
+}
+
+.explorar-content h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.campanhas-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.campanha-card {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s;
+}
+
+.campanha-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.campanha-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.campanha-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.campanha-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 10px;
+}

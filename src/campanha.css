@@ -1,0 +1,72 @@
+.campanha-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+  width: 100%;
+}
+
+.campanha-content {
+  margin-left: 270px;
+  padding: 20px;
+  flex: 1;
+  overflow-y: auto;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.campanha-content h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.campanha-content form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+}
+
+.campanha-content label {
+  font-size: 1.1rem;
+}
+
+.campanha-content input,
+.campanha-content textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.campanha-content textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.campanha-content button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.campanha-content button:hover {
+  background-color: #0056b3;
+}
+
+.preview {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .campanha-content {
+    margin-left: 0;
+    padding: 10px;
+  }
+}
